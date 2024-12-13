@@ -22,11 +22,7 @@ public class Usuario {
     }
     
     
-    public String getTelefono (){
-        
-        return telefono;
-        
-    }
+ 
    
     public boolean validarTelefono (){
         
@@ -39,4 +35,34 @@ public class Usuario {
         return this.email.contains("@");
     }
 
+    
+    
+       public String getTelefono (){
+        
+        return telefono;
+        
+    }
+       
+       public void setTelefono(){
+           
+           this.telefono = telefono;
+           
+       }
+       
+       public String getnombre (){
+           
+           return nombre;
+       }
+       
+       public void setNombre (String nombre){
+           this.nombre = nombre;
+       }
+       
+       public void setEmail (String email){
+           
+           this.email = email;
+           
+       }
+       
+       
 }
