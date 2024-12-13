@@ -35,5 +35,38 @@ public class Aplicacion {
         return  this.nombre != null && !this.nombre.isEmpty();
     }
     
+    public String getNombre (){
     
+    return nombre;
+    
+}
+    
+public void setNombre (String marca){
+    
+    this.nombre = marca;
+}
+
+
+public String getTipo(){
+    
+    return tipo;
+}
+
+public void setTipo (String modelo){
+    
+    this.tipo = tipo;
+    
+}
+
+public String getDesarrolador(){
+    
+    return desarrollador;
+    
+}
+
+public void setDesarrollador (String sistemaOperativo){
+    
+    this.desarrollador = desarrollador;
+}
+
 }
