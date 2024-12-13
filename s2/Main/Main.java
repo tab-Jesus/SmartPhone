@@ -1,9 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package co.edu.udec.s2.Main;
 
+package co.edu.udec.s2.Main;
+import co.edu.udec.s2.Main.ventanas.VentanaPrincipal ;
+        
 /**
  *
  * @author JESUS DAVID
@@ -11,5 +9,9 @@ package co.edu.udec.s2.Main;
 public class Main {
     public static void main(String[] args) {
         System.out.println("JESUS");
+        
+        VentanaPrincipal ventana = new VentanaPrincipal();
+        ventana.setLocationRelativeTo(null);
+        ventana.setVisible(true);
     }
 }
