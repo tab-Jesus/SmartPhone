@@ -73,8 +73,10 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle(".:: GESTION DE USUARIOS ::.");
 
+        menuUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/USUARIOS24PX.png"))); // NOI18N
         menuUsuarios.setText("USUARIOS");
 
+        iteminiciarSesionUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Login24px.png"))); // NOI18N
         iteminiciarSesionUsuarios.setText("Iniciar Sesion...");
         iteminiciarSesionUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,9 +85,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         });
         menuUsuarios.add(iteminiciarSesionUsuarios);
 
+        itemAgregarUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Add24px.png"))); // NOI18N
         itemAgregarUsuario.setText("Agregar Usuario...");
         menuUsuarios.add(itemAgregarUsuario);
 
+        itemConsultarUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Buscar24px.png"))); // NOI18N
         itemConsultarUsuarios.setText("Consultar mis Datos...");
         itemConsultarUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,9 +98,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         });
         menuUsuarios.add(itemConsultarUsuarios);
 
+        itemEditarUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Edit24px.png"))); // NOI18N
         itemEditarUsuarios.setText("Editar mis Datos...");
         menuUsuarios.add(itemEditarUsuarios);
 
+        itemEliminarUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Delete24px.png"))); // NOI18N
         itemEliminarUsuarios.setText("Eliminar mis cuentas...");
         itemEliminarUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,6 +112,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         menuUsuarios.add(itemEliminarUsuarios);
         menuUsuarios.add(jSeparator1);
 
+        subMenuReportesUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Register24px.png"))); // NOI18N
         subMenuReportesUsuarios.setText("Registros...");
 
         itemBuscarUsuariosXNombre.setText("Por nombre...");
@@ -126,11 +133,14 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         barraMenu.add(menuUsuarios);
 
+        MenuSmartPhone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/SmartPhone24px.png"))); // NOI18N
         MenuSmartPhone.setText("SMARTPHONE");
 
+        ItemAgregarSmartPhone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Add24px.png"))); // NOI18N
         ItemAgregarSmartPhone.setText("Agregar SmartPhone...");
         MenuSmartPhone.add(ItemAgregarSmartPhone);
 
+        itemConsultarSmartPhone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Buscar24px.png"))); // NOI18N
         itemConsultarSmartPhone.setText("Consultar mi SmartPhone...");
         itemConsultarSmartPhone.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,13 +149,16 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         });
         MenuSmartPhone.add(itemConsultarSmartPhone);
 
+        itemEditarSmartPhone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Edit24px.png"))); // NOI18N
         itemEditarSmartPhone.setText("Editar mis Datos...");
         MenuSmartPhone.add(itemEditarSmartPhone);
 
+        itemEliminarSmartPhone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Delete24px.png"))); // NOI18N
         itemEliminarSmartPhone.setText("Eliminar mi SmartPhone...");
         MenuSmartPhone.add(itemEliminarSmartPhone);
         MenuSmartPhone.add(jSeparator2);
 
+        subMenuReporteSmartPhone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Register24px.png"))); // NOI18N
         subMenuReporteSmartPhone.setText("Registros...");
 
         itemBuscarSmartPhoneXMarca.setText("Por Marca...");
@@ -166,11 +179,14 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         barraMenu.add(MenuSmartPhone);
 
+        MenuAplicaciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Apps24px.png"))); // NOI18N
         MenuAplicaciones.setText("APLICACIONES");
 
+        itemAgregarAplicaciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Add24px.png"))); // NOI18N
         itemAgregarAplicaciones.setText("Agregar Aplicacion...");
         MenuAplicaciones.add(itemAgregarAplicaciones);
 
+        itemConsultarAplicaciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Buscar24px.png"))); // NOI18N
         itemConsultarAplicaciones.setText("Consultar mis Aplicaciones...");
         itemConsultarAplicaciones.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -179,13 +195,16 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         });
         MenuAplicaciones.add(itemConsultarAplicaciones);
 
+        itemEditarAplicaciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Edit24px.png"))); // NOI18N
         itemEditarAplicaciones.setText("Editar mis Aplicaciones...");
         MenuAplicaciones.add(itemEditarAplicaciones);
 
+        itemEliminarAplicaciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Delete24px.png"))); // NOI18N
         itemEliminarAplicaciones.setText("Eliminar mis Aplicaciones...");
         MenuAplicaciones.add(itemEliminarAplicaciones);
         MenuAplicaciones.add(jSeparator3);
 
+        subMenuReporteAplicaciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Register24px.png"))); // NOI18N
         subMenuReporteAplicaciones.setText("Registros...");
 
         itemBuscarAplicacionesXNombre.setText("Por nombre...");
@@ -228,7 +247,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 423, Short.MAX_VALUE)
+            .addGap(0, 415, Short.MAX_VALUE)
         );
 
         pack();

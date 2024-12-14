@@ -24,11 +24,17 @@
       <SubComponents>
         <Menu class="javax.swing.JMenu" name="menuUsuarios">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/USUARIOS24PX.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="USUARIOS"/>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="iteminiciarSesionUsuarios">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Login24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Iniciar Sesion..."/>
               </Properties>
               <Events>
@@ -37,11 +43,17 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemAgregarUsuario">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Add24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Agregar Usuario..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemConsultarUsuarios">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Buscar24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Consultar mis Datos..."/>
               </Properties>
               <Events>
@@ -50,11 +62,17 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemEditarUsuarios">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Edit24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Editar mis Datos..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemEliminarUsuarios">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Delete24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Eliminar mis cuentas..."/>
               </Properties>
               <Events>
@@ -65,6 +83,9 @@
             </MenuItem>
             <Menu class="javax.swing.JMenu" name="subMenuReportesUsuarios">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Register24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Registros..."/>
               </Properties>
               <SubComponents>
@@ -92,16 +113,25 @@
         </Menu>
         <Menu class="javax.swing.JMenu" name="MenuSmartPhone">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/SmartPhone24px.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="SMARTPHONE"/>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="ItemAgregarSmartPhone">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Add24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Agregar SmartPhone..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemConsultarSmartPhone">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Buscar24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Consultar mi SmartPhone..."/>
               </Properties>
               <Events>
@@ -110,11 +140,17 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemEditarSmartPhone">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Edit24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Editar mis Datos..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemEliminarSmartPhone">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Delete24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Eliminar mi SmartPhone..."/>
               </Properties>
             </MenuItem>
@@ -122,6 +158,9 @@
             </MenuItem>
             <Menu class="javax.swing.JMenu" name="subMenuReporteSmartPhone">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Register24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Registros..."/>
               </Properties>
               <SubComponents>
@@ -149,16 +188,25 @@
         </Menu>
         <Menu class="javax.swing.JMenu" name="MenuAplicaciones">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Apps24px.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="APLICACIONES"/>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="itemAgregarAplicaciones">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Add24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Agregar Aplicacion..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemConsultarAplicaciones">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Buscar24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Consultar mis Aplicaciones..."/>
               </Properties>
               <Events>
@@ -167,11 +215,17 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemEditarAplicaciones">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Edit24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Editar mis Aplicaciones..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemEliminarAplicaciones">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Delete24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Eliminar mis Aplicaciones..."/>
               </Properties>
             </MenuItem>
@@ -179,6 +233,9 @@
             </MenuItem>
             <Menu class="javax.swing.JMenu" name="subMenuReporteAplicaciones">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/co/edu/udec/s2/Main/ventanas/iconos/Register24px.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Registros..."/>
               </Properties>
               <SubComponents>
@@ -251,7 +308,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="423" max="32767" attributes="0"/>
+          <EmptySpace min="0" pref="415" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
