@@ -11,7 +11,9 @@ public class Main {
         System.out.println("JESUS");
         
         VentanaPrincipal ventana = new VentanaPrincipal();
-        ventana.setLocationRelativeTo(null);
+        //ventana.setLocationRelativeTo(null);
+        ventana.setExtendedState(VentanaPrincipal.MAXIMIZED_BOTH);
         ventana.setVisible(true);
+        
     }
 }

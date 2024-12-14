@@ -48,6 +48,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar Usuario..."/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemAgregarUsuarioActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemConsultarUsuarios">
               <Properties>
@@ -88,6 +91,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Registros..."/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="subMenuReportesUsuariosActionPerformed"/>
+              </Events>
               <SubComponents>
                 <MenuItem class="javax.swing.JMenuItem" name="itemBuscarUsuariosXNombre">
                   <Properties>
@@ -126,6 +132,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar SmartPhone..."/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ItemAgregarSmartPhoneActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemConsultarSmartPhone">
               <Properties>
@@ -201,6 +210,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar Aplicacion..."/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemAgregarAplicacionesActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="itemConsultarAplicaciones">
               <Properties>

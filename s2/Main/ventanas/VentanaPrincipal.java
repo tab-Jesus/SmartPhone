@@ -87,6 +87,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         itemAgregarUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Add24px.png"))); // NOI18N
         itemAgregarUsuario.setText("Agregar Usuario...");
+        itemAgregarUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                itemAgregarUsuarioActionPerformed(evt);
+            }
+        });
         menuUsuarios.add(itemAgregarUsuario);
 
         itemConsultarUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Buscar24px.png"))); // NOI18N
@@ -114,6 +119,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         subMenuReportesUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Register24px.png"))); // NOI18N
         subMenuReportesUsuarios.setText("Registros...");
+        subMenuReportesUsuarios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                subMenuReportesUsuariosActionPerformed(evt);
+            }
+        });
 
         itemBuscarUsuariosXNombre.setText("Por nombre...");
         subMenuReportesUsuarios.add(itemBuscarUsuariosXNombre);
@@ -138,6 +148,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         ItemAgregarSmartPhone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Add24px.png"))); // NOI18N
         ItemAgregarSmartPhone.setText("Agregar SmartPhone...");
+        ItemAgregarSmartPhone.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ItemAgregarSmartPhoneActionPerformed(evt);
+            }
+        });
         MenuSmartPhone.add(ItemAgregarSmartPhone);
 
         itemConsultarSmartPhone.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Buscar24px.png"))); // NOI18N
@@ -184,6 +199,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         itemAgregarAplicaciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Add24px.png"))); // NOI18N
         itemAgregarAplicaciones.setText("Agregar Aplicacion...");
+        itemAgregarAplicaciones.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                itemAgregarAplicacionesActionPerformed(evt);
+            }
+        });
         MenuAplicaciones.add(itemAgregarAplicaciones);
 
         itemConsultarAplicaciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/co/edu/udec/s2/Main/ventanas/iconos/Buscar24px.png"))); // NOI18N
@@ -288,6 +308,28 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private void itemEliminarUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemEliminarUsuariosActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_itemEliminarUsuariosActionPerformed
+
+    private void itemAgregarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemAgregarUsuarioActionPerformed
+        VentanaUsuarios ventana = new VentanaUsuarios(this, true);
+       ventana.setLocationRelativeTo(this);
+       ventana.setVisible(true);
+    }//GEN-LAST:event_itemAgregarUsuarioActionPerformed
+
+    private void ItemAgregarSmartPhoneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItemAgregarSmartPhoneActionPerformed
+       VentanaSmartPhone ventana = new VentanaSmartPhone(this,true);
+       ventana.setLocationRelativeTo(this);
+       ventana.setVisible(true);
+    }//GEN-LAST:event_ItemAgregarSmartPhoneActionPerformed
+
+    private void itemAgregarAplicacionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemAgregarAplicacionesActionPerformed
+        VentanaAplicacion ventana = new VentanaAplicacion(this,true);
+        ventana.setLocationRelativeTo(this);
+       ventana.setVisible(true);
+    }//GEN-LAST:event_itemAgregarAplicacionesActionPerformed
+
+    private void subMenuReportesUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subMenuReportesUsuariosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_subMenuReportesUsuariosActionPerformed
 
     /**
      * @param args the command line arguments
