@@ -91,9 +91,9 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="txtnombre2" min="-2" pref="219" max="-2" attributes="0"/>
-                          <Component id="txtemail" min="-2" pref="219" max="-2" attributes="0"/>
-                          <Component id="txttelefono" min="-2" pref="219" max="-2" attributes="0"/>
+                          <Component id="txtnombre" min="-2" pref="219" max="-2" attributes="0"/>
+                          <Component id="txtdesarrollador" min="-2" pref="219" max="-2" attributes="0"/>
+                          <Component id="txttipo" min="-2" pref="219" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="80" max="32767" attributes="0"/>
                       <Component id="jButton1" min="-2" max="-2" attributes="0"/>
@@ -105,11 +105,11 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace pref="31" max="32767" attributes="0"/>
-                      <Component id="txtnombre2" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txtnombre" min="-2" pref="50" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                              <Component id="txttelefono" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="txttipo" min="-2" pref="50" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -117,14 +117,14 @@
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                      <Component id="txtemail" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="txtdesarrollador" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JTextField" name="txttelefono">
+            <Component class="javax.swing.JTextField" name="txttipo">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -139,10 +139,10 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txttelefonoActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txttipoActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtemail">
+            <Component class="javax.swing.JTextField" name="txtdesarrollador">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -157,7 +157,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtnombre2">
+            <Component class="javax.swing.JTextField" name="txtnombre">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
