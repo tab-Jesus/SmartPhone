@@ -99,11 +99,17 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Por nombre..."/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemBuscarUsuariosXNombreActionPerformed"/>
+                  </Events>
                 </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="itemBuscarUsuariosXCorreo">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Por correo..."/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemBuscarUsuariosXCorreoActionPerformed"/>
+                  </Events>
                 </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="itemBuscarUsuariosXtelefono">
                   <Properties>
@@ -185,11 +191,17 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Por modelo..."/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemBuscarSmartPhoneXModeloActionPerformed"/>
+                  </Events>
                 </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="itemBuscarSmartPhoneXSistemaOperativo">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Por Sistema Operativo..."/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemBuscarSmartPhoneXSistemaOperativoActionPerformed"/>
+                  </Events>
                 </MenuItem>
               </SubComponents>
             </Menu>
@@ -255,6 +267,9 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Por nombre..."/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemBuscarAplicacionesXNombreActionPerformed"/>
+                  </Events>
                 </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="itemBuscarAplicacionesXTipo">
                   <Properties>

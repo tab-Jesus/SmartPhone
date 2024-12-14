@@ -126,9 +126,19 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         });
 
         itemBuscarUsuariosXNombre.setText("Por nombre...");
+        itemBuscarUsuariosXNombre.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                itemBuscarUsuariosXNombreActionPerformed(evt);
+            }
+        });
         subMenuReportesUsuarios.add(itemBuscarUsuariosXNombre);
 
         itemBuscarUsuariosXCorreo.setText("Por correo...");
+        itemBuscarUsuariosXCorreo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                itemBuscarUsuariosXCorreoActionPerformed(evt);
+            }
+        });
         subMenuReportesUsuarios.add(itemBuscarUsuariosXCorreo);
 
         itemBuscarUsuariosXtelefono.setText("Por telefono...");
@@ -185,9 +195,19 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         subMenuReporteSmartPhone.add(itemBuscarSmartPhoneXMarca);
 
         itemBuscarSmartPhoneXModelo.setText("Por modelo...");
+        itemBuscarSmartPhoneXModelo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                itemBuscarSmartPhoneXModeloActionPerformed(evt);
+            }
+        });
         subMenuReporteSmartPhone.add(itemBuscarSmartPhoneXModelo);
 
         itemBuscarSmartPhoneXSistemaOperativo.setText("Por Sistema Operativo...");
+        itemBuscarSmartPhoneXSistemaOperativo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                itemBuscarSmartPhoneXSistemaOperativoActionPerformed(evt);
+            }
+        });
         subMenuReporteSmartPhone.add(itemBuscarSmartPhoneXSistemaOperativo);
 
         MenuSmartPhone.add(subMenuReporteSmartPhone);
@@ -228,6 +248,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         subMenuReporteAplicaciones.setText("Registros...");
 
         itemBuscarAplicacionesXNombre.setText("Por nombre...");
+        itemBuscarAplicacionesXNombre.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                itemBuscarAplicacionesXNombreActionPerformed(evt);
+            }
+        });
         subMenuReporteAplicaciones.add(itemBuscarAplicacionesXNombre);
 
         itemBuscarAplicacionesXTipo.setText("Por Tipo...");
@@ -286,11 +311,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_itemConsultarSmartPhoneActionPerformed
 
     private void itemBuscarSmartPhoneXMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemBuscarSmartPhoneXMarcaActionPerformed
-        // TODO add your handling code here:
+        VentanaRegistroSmartPhone ventana = new VentanaRegistroSmartPhone (this,true);
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
     }//GEN-LAST:event_itemBuscarSmartPhoneXMarcaActionPerformed
 
     private void itemBuscarUsuariosXtelefonoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemBuscarUsuariosXtelefonoActionPerformed
-        // TODO add your handling code here:
+        VentanaRegistroUsuarios ventana = new VentanaRegistroUsuarios (this,true);
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
     }//GEN-LAST:event_itemBuscarUsuariosXtelefonoActionPerformed
 
     private void itemConsultarAplicacionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemConsultarAplicacionesActionPerformed
@@ -298,11 +327,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_itemConsultarAplicacionesActionPerformed
 
     private void itemBuscarAplicacionesXDesarrolladorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemBuscarAplicacionesXDesarrolladorActionPerformed
-        // TODO add your handling code here:
+         VentanaRegistroAplicaciones ventana = new VentanaRegistroAplicaciones (this,true);
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
     }//GEN-LAST:event_itemBuscarAplicacionesXDesarrolladorActionPerformed
 
     private void itemBuscarAplicacionesXTipoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemBuscarAplicacionesXTipoActionPerformed
-        // TODO add your handling code here:
+      VentanaRegistroAplicaciones ventana = new VentanaRegistroAplicaciones (this,true);
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
     }//GEN-LAST:event_itemBuscarAplicacionesXTipoActionPerformed
 
     private void itemEliminarUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemEliminarUsuariosActionPerformed
@@ -328,8 +361,40 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_itemAgregarAplicacionesActionPerformed
 
     private void subMenuReportesUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subMenuReportesUsuariosActionPerformed
-        // TODO add your handling code here:
+        VentanaRegistroUsuarios ventana = new VentanaRegistroUsuarios (this,true);
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
     }//GEN-LAST:event_subMenuReportesUsuariosActionPerformed
+
+    private void itemBuscarUsuariosXNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemBuscarUsuariosXNombreActionPerformed
+       VentanaRegistroUsuarios ventana = new VentanaRegistroUsuarios (this,true);
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
+    }//GEN-LAST:event_itemBuscarUsuariosXNombreActionPerformed
+
+    private void itemBuscarUsuariosXCorreoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemBuscarUsuariosXCorreoActionPerformed
+        VentanaRegistroUsuarios ventana = new VentanaRegistroUsuarios (this,true);
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
+    }//GEN-LAST:event_itemBuscarUsuariosXCorreoActionPerformed
+
+    private void itemBuscarSmartPhoneXModeloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemBuscarSmartPhoneXModeloActionPerformed
+        VentanaRegistroSmartPhone ventana = new VentanaRegistroSmartPhone (this,true);
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
+    }//GEN-LAST:event_itemBuscarSmartPhoneXModeloActionPerformed
+
+    private void itemBuscarSmartPhoneXSistemaOperativoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemBuscarSmartPhoneXSistemaOperativoActionPerformed
+          VentanaRegistroSmartPhone ventana = new VentanaRegistroSmartPhone (this,true);
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
+    }//GEN-LAST:event_itemBuscarSmartPhoneXSistemaOperativoActionPerformed
+
+    private void itemBuscarAplicacionesXNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemBuscarAplicacionesXNombreActionPerformed
+         VentanaRegistroAplicaciones ventana = new VentanaRegistroAplicaciones (this,true);
+        ventana.setLocationRelativeTo(this);
+        ventana.setVisible(true);
+    }//GEN-LAST:event_itemBuscarAplicacionesXNombreActionPerformed
 
     /**
      * @param args the command line arguments
